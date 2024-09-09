@@ -1,10 +1,10 @@
-# [Sponsorname] Mitigation Review
-- Total Prize Pool: XXX XXX
-  - HM awards: XXX XXX
-  - Judge awards: XXX XXX
+# Reserve Core Mitigation Review
+- Total Prize Pool: 17,000 in USDC
+  - HM awards: 14,000 in USDC
+  - Judge awards: $3,000 in USDC
 - [Warden guidelines for C4 mitigation reviews](https://code4rena.notion.site/Guidelines-for-C4-mitigation-reviews-ed10fc5cfbf640bd8dcec66f38b343c4)
-- Starts TBD XXX XXX XX 20:00 UTC (ex. `Starts March 22, 2023 20:00 UTC`)
-- Ends TBD XXX XXX XX 20:00 UTC (ex. `Ends March 30, 2023 20:00 UTC`)
+- Starts September 12, 2024 20:00 UTC 
+- Ends September 17, 2024 20:00 UTC 
 
 ## Important note 
 
@@ -14,7 +14,13 @@ Each warden must submit a mitigation review for *every* individual PR listed in 
 
 Mitigations of all High and Medium issues will be considered in-scope and listed here.
 
-- [H-01: Title](link to Github issue)
+- [M-01: RToken can manipulate distribution to avoid paying DAO fees](https://github.com/code-423n4/2024-07-reserve-findings/issues/53)
+- [M-01: Broken assumptions can lead to the inability to seize RSR](https://github.com/code-423n4/2024-07-reserve-findings/issues/39)
+- [M-01: The default Governor Anastasius is unable to call resetStakes](https://github.com/code-423n4/2024-07-reserve-findings/issues/36)
+- [M-01: Dutch auctions can fail to settle if any other collateral in the basket behaves unexpectedly](https://github.com/code-423n4/2024-07-reserve-findings/issues/32)
+- [M-01: Users can dodge losses due to StRSR era changes with instant operations](https://github.com/code-423n4/2024-07-reserve-findings/issues/21)
+- [M-01: The time available for a canceled withdrawal should not impact future unstaking processes](https://github.com/code-423n4/2024-07-reserve-findings/issues/18)
+- [M-01: The traceEnd in BackingManager isn't updating correctly](https://github.com/code-423n4/2024-07-reserve-findings/issues/6)
 
 [ ⭐️ SPONSORS ADD INFO HERE ]
 
