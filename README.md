@@ -1,5 +1,5 @@
 # Reserve Core Mitigation Review
-- Total Prize Pool: 17,000 in USDC
+- Total Prize Pool: 17,250 in USDC
   - HM awards: 14,000 in USDC
   - Judge awards: $3,000 in USDC
 - [Warden guidelines for C4 mitigation reviews](https://code4rena.notion.site/Guidelines-for-C4-mitigation-reviews-ed10fc5cfbf640bd8dcec66f38b343c4)
@@ -15,12 +15,12 @@ Each warden must submit a mitigation review for *every* individual PR listed in 
 Mitigations of all High and Medium issues will be considered in-scope and listed here.
 
 - [M-01: RToken can manipulate distribution to avoid paying DAO fees](https://github.com/code-423n4/2024-07-reserve-findings/issues/53)
-- [M-01: Broken assumptions can lead to the inability to seize RSR](https://github.com/code-423n4/2024-07-reserve-findings/issues/39)
-- [M-01: The default Governor Anastasius is unable to call resetStakes](https://github.com/code-423n4/2024-07-reserve-findings/issues/36)
-- [M-01: Dutch auctions can fail to settle if any other collateral in the basket behaves unexpectedly](https://github.com/code-423n4/2024-07-reserve-findings/issues/32)
-- [M-01: Users can dodge losses due to StRSR era changes with instant operations](https://github.com/code-423n4/2024-07-reserve-findings/issues/21)
-- [M-01: The time available for a canceled withdrawal should not impact future unstaking processes](https://github.com/code-423n4/2024-07-reserve-findings/issues/18)
-- [M-01: The traceEnd in BackingManager isn't updating correctly](https://github.com/code-423n4/2024-07-reserve-findings/issues/6)
+- [M-02: Broken assumptions can lead to the inability to seize RSR](https://github.com/code-423n4/2024-07-reserve-findings/issues/39)
+- [M-03: The default Governor Anastasius is unable to call resetStakes](https://github.com/code-423n4/2024-07-reserve-findings/issues/36)
+- [M-04: Dutch auctions can fail to settle if any other collateral in the basket behaves unexpectedly](https://github.com/code-423n4/2024-07-reserve-findings/issues/32)
+- [M-05: Users can dodge losses due to StRSR era changes with instant operations](https://github.com/code-423n4/2024-07-reserve-findings/issues/21)
+- [M-06: The time available for a canceled withdrawal should not impact future unstaking processes](https://github.com/code-423n4/2024-07-reserve-findings/issues/18)
+- [M-07: The traceEnd in BackingManager isn't updating correctly](https://github.com/code-423n4/2024-07-reserve-findings/issues/6)
 
 [ ⭐️ SPONSORS ADD INFO HERE ]
 
