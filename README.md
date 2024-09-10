@@ -25,10 +25,6 @@ Mitigations of all High and Medium issues will be considered in-scope and listed
 
 Additional fixes for QA/L issues were made, additionally some issues deemed invalid were also taken into account.
 
-## Overview of changes
-
-Please provide context about the mitigations that were applied if applicable and identify any areas of specific concern.
-
 ## Scope
 
 ### Branch
@@ -63,10 +59,10 @@ These are additional changes that will be in scope. Changes marked as `MISC` are
 
 We'd like some extra eyes on the following changes, since they are not in the "obviously safe" category:
 
-| URL                                                    | Mitigation of | Description |
-| ------------------------------------------------------ | ------------- | ----------- |
-| https://github.com/reserve-protocol/protocol/pull/1198 | M-02          |             |
-| https://github.com/reserve-protocol/protocol/pull/1199 | M-05          |             |
+| URL                                                    | Mitigation of |
+| ------------------------------------------------------ | ------------- |
+| https://github.com/reserve-protocol/protocol/pull/1198 | M-02          |
+| https://github.com/reserve-protocol/protocol/pull/1199 | M-05          |
 
 ## Out of Scope
 
