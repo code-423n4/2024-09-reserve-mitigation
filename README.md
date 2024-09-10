@@ -23,7 +23,7 @@ Mitigations of all High and Medium issues will be considered in-scope and listed
 - [M-06: The time available for a canceled withdrawal should not impact future unstaking processes](https://github.com/code-423n4/2024-07-reserve-findings/issues/18)
 - [M-07: The traceEnd in BackingManager isn't updating correctly](https://github.com/code-423n4/2024-07-reserve-findings/issues/6)
 
-[ ⭐️ SPONSORS ADD INFO HERE ]
+Additional fixes for QA/L issues were made, additionally some issues deemed invalid were also taken into account.
 
 ## Overview of changes
 
@@ -63,9 +63,10 @@ These are additional changes that will be in scope. Changes marked as `MISC` are
 
 We'd like some extra eyes on the following changes, since they are not in the "obviously safe" category:
 
-| URL                                                    | Mitigation of |
-| ------------------------------------------------------ | ------------- |
-| https://github.com/reserve-protocol/protocol/pull/1198 | M-02          |
+| URL                                                    | Mitigation of | Description |
+| ------------------------------------------------------ | ------------- | ----------- |
+| https://github.com/reserve-protocol/protocol/pull/1198 | M-02          |             |
+| https://github.com/reserve-protocol/protocol/pull/1199 | M-05          |             |
 
 ## Out of Scope
 
