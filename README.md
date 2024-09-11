@@ -32,8 +32,6 @@ https://github.com/reserve-protocol/protocol/pull/1204
 
 ### Mitigation of High & Medium Severity Issues
 
-Wherever possible, mitigations should be provided in separate pull requests, one per issue. If that is not possible (e.g. because several audit findings stem from the same core problem), then please link the PR to all relevant issues in your findings repo.
-
 | URL                                                    | Mitigation of |
 | ------------------------------------------------------ | ------------- |
 | https://github.com/reserve-protocol/protocol/pull/1191 | M-01          |
